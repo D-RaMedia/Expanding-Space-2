@@ -11,12 +11,12 @@ public class TimerController : MonoBehaviour
 
     void Start()
     {
-        startTime = Time.time;
+        startTime = 595f;
     }
 
     void Update()
     {
-        float t = Time.time - startTime;
+        float t = startTime - Time.time;
 
         string minutes = ((int)t / 60).ToString("00");
         string seconds = (t % 59.5299).ToString("00");

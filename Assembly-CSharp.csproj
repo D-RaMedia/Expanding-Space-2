@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{5DE0CC06-1807-E685-7B0A-4A18E1F0F2C8}</ProjectGuid>
+    <ProjectGuid>{09B6ECFE-FDAB-693D-CF2A-FF0F943E348F}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -64,6 +64,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\CamaraFollower.cs" />
+    <Compile Include="Assets\Pics\Geupdaten UI!!\tekstbalken\textscript.cs" />
     <Compile Include="Assets\Scripts\DropOff.cs" />
     <Compile Include="Assets\Scripts\EnergyStation.cs" />
     <Compile Include="Assets\Scripts\Inventory.cs" />
@@ -83,31 +84,31 @@
     <Compile Include="Assets\Scripts\TLevel1.cs" />
     <Compile Include="Assets\Scripts\WaterStation.cs" />
     <Reference Include="Unity.Timeline.Editor">
-      <HintPath>C:/Users/Diego/OneDrive/Documenten/GitHub/Expanding-Space/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+      <HintPath>C:/Users/Diego/OneDrive/Documenten/GitHub/Expanding-Space-2/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
-      <HintPath>C:/Users/Diego/OneDrive/Documenten/GitHub/Expanding-Space/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+      <HintPath>C:/Users/Diego/OneDrive/Documenten/GitHub/Expanding-Space-2/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>C:/Users/Diego/OneDrive/Documenten/GitHub/Expanding-Space/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>C:/Users/Diego/OneDrive/Documenten/GitHub/Expanding-Space-2/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>C:/Users/Diego/OneDrive/Documenten/GitHub/Expanding-Space/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+      <HintPath>C:/Users/Diego/OneDrive/Documenten/GitHub/Expanding-Space-2/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-      <HintPath>C:/Users/Diego/OneDrive/Documenten/GitHub/Expanding-Space/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+      <HintPath>C:/Users/Diego/OneDrive/Documenten/GitHub/Expanding-Space-2/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>C:/Users/Diego/OneDrive/Documenten/GitHub/Expanding-Space/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>C:/Users/Diego/OneDrive/Documenten/GitHub/Expanding-Space-2/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-      <HintPath>C:/Users/Diego/OneDrive/Documenten/GitHub/Expanding-Space/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+      <HintPath>C:/Users/Diego/OneDrive/Documenten/GitHub/Expanding-Space-2/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>C:/Users/Diego/OneDrive/Documenten/GitHub/Expanding-Space/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>C:/Users/Diego/OneDrive/Documenten/GitHub/Expanding-Space-2/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-      <HintPath>C:/Users/Diego/OneDrive/Documenten/GitHub/Expanding-Space/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+      <HintPath>C:/Users/Diego/OneDrive/Documenten/GitHub/Expanding-Space-2/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.2.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
