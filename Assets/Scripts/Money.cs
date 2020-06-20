@@ -3,8 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class Money : MonoBehaviour
+public class Money : TimerController
 {
+    public GameObject Panel;
+    public GameObject Lose;
     public Text moneyText;
     public float moneyAmount;
     public float moneyIncreasedPerSecond;
@@ -20,5 +22,22 @@ public class Money : MonoBehaviour
     {
         moneyText.text = "@   " + (int)moneyAmount;
         moneyAmount += moneyIncreasedPerSecond * Time.deltaTime;
+
+        if (moneyAmount == 1000)
+        {
+            bool isActive = Panel.activeSelf;
+
+            Panel.SetActive(true);
+        }
+
+        if(moneyAmount <= 1000)
+        {
+            if(startTime == 0)
+            {
+                bool isActive = Lose.activeSelf;
+
+                Lose.SetActive(true);
+            }
+        }
     }
 }
