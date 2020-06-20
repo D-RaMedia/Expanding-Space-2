@@ -70,6 +70,7 @@
     <Compile Include="Assets\Scripts\EnergyStation.cs" />
     <Compile Include="Assets\Scripts\Inventory.cs" />
     <Compile Include="Assets\Scripts\InventorySystem.cs" />
+    <Compile Include="Assets\Scripts\Load.cs" />
     <Compile Include="Assets\Scripts\Menu.cs" />
     <Compile Include="Assets\Scripts\MenuOpener.cs" />
     <Compile Include="Assets\Scripts\Money.cs" />
