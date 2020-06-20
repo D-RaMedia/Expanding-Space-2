@@ -6,6 +6,8 @@ using UnityEngine.UI;
 public class arrowscript : MonoBehaviour
 {
     public GameObject activetext;
+    public GameObject nextactivetext;
+    
     public GameObject turnarrowon;
     // Start is called before the first frame update
     void Start()
@@ -19,7 +21,7 @@ public class arrowscript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(Input.GetKeyDown(KeyCode.Return))
+        if(nextactivetext.activeSelf == true)
         {
             turnarrowon.SetActive(false);
         }

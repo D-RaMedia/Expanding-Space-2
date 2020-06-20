@@ -7035,11 +7035,11 @@ RectTransform:
   - {fileID: 2054907283}
   - {fileID: 1531911994}
   - {fileID: 1821772555}
+  - {fileID: 1702133598037749308}
   - {fileID: 1805621573}
   - {fileID: 958955030}
   - {fileID: 787866793}
   - {fileID: 997013609}
-  - {fileID: 1702133598037749308}
   - {fileID: 1702133599085514232}
   - {fileID: 127773860}
   - {fileID: 1909179498}
@@ -7268,7 +7268,7 @@ PrefabInstance:
     - target: {fileID: 1702133597584840097, guid: 278c564915d039c41a686eea25feb822,
         type: 3}
       propertyPath: m_RootOrder
-      value: 14
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 1702133597584840097, guid: 278c564915d039c41a686eea25feb822,
         type: 3}
@@ -8483,7 +8483,7 @@ PrefabInstance:
     - target: {fileID: 1702133597584840097, guid: 278c564915d039c41a686eea25feb822,
         type: 3}
       propertyPath: m_RootOrder
-      value: 12
+      value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 1702133597584840097, guid: 278c564915d039c41a686eea25feb822,
         type: 3}
@@ -9552,7 +9552,7 @@ PrefabInstance:
     - target: {fileID: 1702133597584840097, guid: 278c564915d039c41a686eea25feb822,
         type: 3}
       propertyPath: m_RootOrder
-      value: 13
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 1702133597584840097, guid: 278c564915d039c41a686eea25feb822,
         type: 3}
@@ -10748,6 +10748,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   activetext: {fileID: 1805621572}
+  nextactivetext: {fileID: 0}
   turnarrowon: {fileID: 547340416}
 --- !u!114 &1805621577
 MonoBehaviour:
@@ -11759,7 +11760,7 @@ PrefabInstance:
     - target: {fileID: 1702133597584840097, guid: 278c564915d039c41a686eea25feb822,
         type: 3}
       propertyPath: m_RootOrder
-      value: 15
+      value: 16
       objectReference: {fileID: 0}
     - target: {fileID: 1702133597584840097, guid: 278c564915d039c41a686eea25feb822,
         type: 3}
@@ -12321,7 +12322,7 @@ RectTransform:
   - {fileID: 333897778}
   - {fileID: 1180718975}
   m_Father: {fileID: 1092453087}
-  m_RootOrder: 16
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
