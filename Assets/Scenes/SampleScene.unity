@@ -576,8 +576,8 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 151700755}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -12.487689}
-  m_LocalScale: {x: 1.5149475, y: 1.4395274, z: 2.1318412}
+  m_LocalPosition: {x: 0, y: 0, z: -16.594}
+  m_LocalScale: {x: 0.49747846, y: 0.47271198, z: 0.700054}
   m_Children:
   - {fileID: 1696925963}
   - {fileID: 760100274}
@@ -586,7 +586,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 273.76257, y: 498}
+  m_AnchoredPosition: {x: 221, y: 525}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &151700757
@@ -609,7 +609,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 0b435f2a34e571140bbb4d1c64c38ad4, type: 3}
-    m_FontSize: 28
+    m_FontSize: 128
     m_FontStyle: 1
     m_BestFit: 0
     m_MinSize: 0
@@ -617,10 +617,10 @@ MonoBehaviour:
     m_Alignment: 0
     m_AlignByGeometry: 0
     m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
+    m_HorizontalOverflow: 1
+    m_VerticalOverflow: 1
     m_LineSpacing: 0
-  m_Text: 
+  m_Text: 123
 --- !u!222 &151700758
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -7685,14 +7685,14 @@ RectTransform:
   m_GameObject: {fileID: 1194490583}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -3.4644}
-  m_LocalScale: {x: 1.439195, y: 1.3359896, z: 0.86568123}
+  m_LocalScale: {x: 0.3959113, y: 0.3675203, z: 0.23814215}
   m_Children: []
   m_Father: {fileID: 843690968}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -20.435, y: 510.97995}
+  m_AnchoredPosition: {x: -130, y: 529}
   m_SizeDelta: {x: 179.38, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1194490585
@@ -7715,7 +7715,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 0b435f2a34e571140bbb4d1c64c38ad4, type: 3}
-    m_FontSize: 28
+    m_FontSize: 128
     m_FontStyle: 1
     m_BestFit: 0
     m_MinSize: 1
@@ -7723,8 +7723,8 @@ MonoBehaviour:
     m_Alignment: 0
     m_AlignByGeometry: 0
     m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
+    m_HorizontalOverflow: 1
+    m_VerticalOverflow: 1
     m_LineSpacing: 0
   m_Text: Time 10.00
 --- !u!222 &1194490586
@@ -9895,14 +9895,14 @@ RectTransform:
   m_GameObject: {fileID: 1696925962}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -5.736445}
-  m_LocalScale: {x: 0.31585577, y: 0.31585577, z: 0.12858231}
+  m_LocalScale: {x: 1.1012627, y: 1.1012627, z: 0.44831508}
   m_Children: []
   m_Father: {fileID: 151700756}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -65.62126, y: 0.1381814}
+  m_AnchoredPosition: {x: -22, y: -52}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1696925964
