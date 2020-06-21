@@ -11,6 +11,8 @@ public class DropOff : MonoBehaviour
 
     [SerializeField] private Money money;
 
+    private float timer;
+
     // Start is called before the first frame update
     void Start()
     {

@@ -7,6 +7,7 @@ public class textscript : MonoBehaviour
 {
     public GameObject currenttext;
     public GameObject nexttext;
+    public AudioSource Astro;
     
     void Update()
     {
@@ -14,8 +15,9 @@ public class textscript : MonoBehaviour
         {
             if(currenttext.activeSelf == true)
             {
-            currenttext.SetActive(false);
-            nexttext.SetActive(true);
+                currenttext.SetActive(false);
+                nexttext.SetActive(true);
+                Astro.Play();
             }
         }
     }
