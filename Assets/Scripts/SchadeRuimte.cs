@@ -7,6 +7,9 @@ public class SchadeRuimte : MonoBehaviour
     [SerializeField]public bool isRepaired = false;
     [SerializeField]private SchadeActivator activator;
     [SerializeField]private GameObject Schadebalk;
+    public GameObject blockade1;
+    public GameObject blockade2;
+    public GameObject blockade3;
     public bool inArea;
     public bool ReadyToFix = false;
 
@@ -43,6 +46,13 @@ public class SchadeRuimte : MonoBehaviour
                 Schadebalk.SetActive(true);
             }
         } 
+
+        if(isRepaired == true)
+        {
+            blockade1.SetActive(false);
+            blockade2.SetActive(false);
+            blockade3.SetActive(false);
+        }
         
         if(isRepaired){
             activator.Countdown = Random.Range(10.0f,30.0f);
