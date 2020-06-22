@@ -13,6 +13,7 @@ public class Sound : MonoBehaviour
     public AudioSource Water;
     public AudioSource Elec;
     public AudioSource Food;
+    public AudioSource Repairing;
     // Start is called before the first frame update
     void Start()
     {
@@ -68,6 +69,10 @@ public class Sound : MonoBehaviour
     public void PlayFood()
     {
         Astro.Play();
+    }
+    public void PlayRepairing()
+    {
+        Repairing.Play();
     }
 
 }
