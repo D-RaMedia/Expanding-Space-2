@@ -5925,6 +5925,7 @@ MonoBehaviour:
   Water: {fileID: 0}
   Elec: {fileID: 0}
   Food: {fileID: 0}
+  Repairing: {fileID: 0}
 --- !u!1 &804496389
 GameObject:
   m_ObjectHideFlags: 0
@@ -8093,6 +8094,7 @@ MonoBehaviour:
   Water: {fileID: 0}
   Elec: {fileID: 0}
   Food: {fileID: 0}
+  Repairing: {fileID: 0}
 --- !u!1 &1108540618
 GameObject:
   m_ObjectHideFlags: 0
@@ -8475,6 +8477,7 @@ MonoBehaviour:
   Water: {fileID: 0}
   Elec: {fileID: 0}
   Food: {fileID: 0}
+  Repairing: {fileID: 0}
 --- !u!1 &1154549814
 GameObject:
   m_ObjectHideFlags: 0
@@ -8626,6 +8629,7 @@ MonoBehaviour:
   Water: {fileID: 0}
   Elec: {fileID: 0}
   Food: {fileID: 0}
+  Repairing: {fileID: 0}
 --- !u!1 &1157133024
 GameObject:
   m_ObjectHideFlags: 0
@@ -9953,6 +9957,7 @@ MonoBehaviour:
   Water: {fileID: 0}
   Elec: {fileID: 0}
   Food: {fileID: 0}
+  Repairing: {fileID: 0}
 --- !u!1 &1395694616
 GameObject:
   m_ObjectHideFlags: 0
@@ -12784,6 +12789,7 @@ MonoBehaviour:
   Water: {fileID: 0}
   Elec: {fileID: 0}
   Food: {fileID: 0}
+  Repairing: {fileID: 0}
 --- !u!1 &1913430040
 GameObject:
   m_ObjectHideFlags: 0
@@ -13012,6 +13018,7 @@ MonoBehaviour:
   Water: {fileID: 1108540619}
   Elec: {fileID: 737656493}
   Food: {fileID: 1565325718}
+  Repairing: {fileID: 0}
 --- !u!4 &1934799168
 Transform:
   m_ObjectHideFlags: 0

@@ -14,6 +14,8 @@ public class SchadeRuimte : MonoBehaviour
     public bool ReadyToFix = false;
 
     public bool isRepairing = false;
+
+    public AudioSource Repair;
     
     private void OnTriggerEnter(Collider other) {
         inArea = true;
@@ -44,6 +46,7 @@ public class SchadeRuimte : MonoBehaviour
             if(Input.GetKeyDown(KeyCode.R)){
                 isRepairing = true;
                 Schadebalk.SetActive(true);
+                Repair.Play();
             }
         } 
 
@@ -61,7 +64,11 @@ public class SchadeRuimte : MonoBehaviour
             Schadebalk.SetActive(false);
             activator.isActive = false;
             this.gameObject.SetActive(false);
+        }
 
+        if(ReadyToFix == true)
+        {
+            Repair.Stop();
         }
     }
 }
