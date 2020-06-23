@@ -65,9 +65,11 @@
      <Compile Include="Assets\Scripts\SchadeBalk.cs" />
      <Compile Include="Assets\Scripts\SchadeRuimte.cs" />
      <Compile Include="Assets\Scripts\Sound.cs" />
+     <Compile Include="Assets\Scripts\StarScript.cs" />
      <Compile Include="Assets\Scripts\TimerController.cs" />
      <Compile Include="Assets\Scripts\TLevel1.cs" />
      <Compile Include="Assets\Scripts\WaterStation.cs" />
+     <Compile Include="Assets\timertester.cs" />
  <Reference Include="Unity.Timeline.Editor">
  <HintPath>D:/Program Files/SCHOOL/Expanding-Space-2/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
  </Reference>
