@@ -9864,7 +9864,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   timerText: {fileID: 1239287519}
   Lose: {fileID: 0}
-  startTime: 0
+  startTime: 2.08
   endTime: 0
 --- !u!114 &1239287519
 MonoBehaviour:
