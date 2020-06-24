@@ -14,7 +14,7 @@ public class RandomQuest : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        number = Random.Range(0,2);
+        number = Random.Range(0,3);
     }
 
     // Update is called once per frame
@@ -26,10 +26,13 @@ public class RandomQuest : MonoBehaviour
 
         if(number == 0){
                 dropoff.benoodigd = "Water";
-                
-            }else{
+
+            }else if (number == 1){
                 dropoff.benoodigd = "Energy";
+            }else if (number == 2){
+                dropoff.benoodigd = "Food";
             }
+        
         
 
         if (timer >=  cooldown && !dropoff.questactive){

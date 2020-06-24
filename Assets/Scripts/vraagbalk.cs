@@ -7,6 +7,7 @@ public class vraagbalk : MonoBehaviour
     [SerializeField]private DropOff dropOff;
     [SerializeField] private GameObject water;
     [SerializeField] private GameObject energy;
+    [SerializeField] private GameObject food;
     // Start is called before the first frame update
     void Start()
     {
@@ -18,8 +19,11 @@ public class vraagbalk : MonoBehaviour
     {
         if(dropOff.benoodigd == "Water"){
             water.SetActive(true);
-        }else{
+        }else if(dropOff.benoodigd == "Energy"){
             energy.SetActive(true);
+        }
+        else if(dropOff.benoodigd == "Food"){
+            food.SetActive(true);
         }
     }
 }

@@ -51,6 +51,7 @@
      <Compile Include="Assets\Scripts\coin.cs" />
      <Compile Include="Assets\Scripts\DropOff.cs" />
      <Compile Include="Assets\Scripts\EnergyStation.cs" />
+     <Compile Include="Assets\Scripts\FoodStation.cs" />
      <Compile Include="Assets\Scripts\Inventory.cs" />
      <Compile Include="Assets\Scripts\InventorySystem.cs" />
      <Compile Include="Assets\Scripts\Load.cs" />
@@ -60,6 +61,7 @@
      <Compile Include="Assets\Scripts\PickUp.cs" />
      <Compile Include="Assets\Scripts\PlayerController.cs" />
      <Compile Include="Assets\Scripts\ProcessEnergy.cs" />
+     <Compile Include="Assets\Scripts\ProcessFood.cs" />
      <Compile Include="Assets\Scripts\ProcessWater.cs" />
      <Compile Include="Assets\Scripts\Quit.cs" />
      <Compile Include="Assets\Scripts\RandomQuest.cs" />

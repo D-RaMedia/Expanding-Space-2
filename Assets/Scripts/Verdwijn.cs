@@ -7,6 +7,7 @@ public class Verdwijn : MonoBehaviour
     private float timer;
     [SerializeField] private GameObject water;
     [SerializeField] private GameObject energy;
+    [SerializeField] private GameObject food;
     // Start is called before the first frame update
     void Start()
     {
@@ -22,6 +23,7 @@ public class Verdwijn : MonoBehaviour
             
             water.SetActive(false);
             energy.SetActive(false);
+            food.SetActive(false);
             this.gameObject.SetActive(false);
             
             timer = 0;

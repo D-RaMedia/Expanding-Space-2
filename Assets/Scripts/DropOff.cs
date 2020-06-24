@@ -51,10 +51,10 @@ public class DropOff : MonoBehaviour
             coinAnimation.SetActive(true);
             Vinkje.SetActive(true);
             
-            money.moneyAmount += 100;
+            money.moneyAmount += 10;
             questactive = false;
             mensenAnim.SetActive(false);
-            randomQuest.number = Random.Range(0,2);
+            randomQuest.number = Random.Range(0,3);
             
 
         }
