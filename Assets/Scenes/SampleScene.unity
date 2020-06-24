@@ -2743,7 +2743,7 @@ Animator:
   m_GameObject: {fileID: 512095074}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: cf245000d533a964482dc0ae546289f4, type: 2}
+  m_Controller: {fileID: 9100000, guid: b7d7c49e5b656f04fbeb6e4a29b48f0d, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -5484,7 +5484,14 @@ MonoBehaviour:
   playerInArea: 0
   sprite: {fileID: 681315476}
   inv: {fileID: 1019252180}
+  mensenAnim: {fileID: 0}
+  randomQuest: {fileID: 0}
+  questactive: 0
   money: {fileID: 760100273}
+  vraagbalk: {fileID: 0}
+  benoodigd: 
+  coinAnimation: {fileID: 0}
+  Vinkje: {fileID: 0}
 --- !u!65 &771652177
 BoxCollider:
   m_ObjectHideFlags: 0

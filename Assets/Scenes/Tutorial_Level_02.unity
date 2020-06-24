@@ -3364,7 +3364,7 @@ Animator:
   m_GameObject: {fileID: 512095074}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: cf245000d533a964482dc0ae546289f4, type: 2}
+  m_Controller: {fileID: 9100000, guid: b7d7c49e5b656f04fbeb6e4a29b48f0d, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -3411,7 +3411,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: c89ada5bb38b589458e119032bda5268, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 6581a3d3c9862514ba9ae82eb01de98b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -3486,10 +3486,10 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   Countdown: 0
+  timer: 0
   Generators:
   - {fileID: 277365605}
   - {fileID: 110361178}
-  Schadetext: {fileID: 1657195618}
   isActive: 0
 --- !u!1 &519420028
 GameObject:
@@ -10053,12 +10053,6 @@ PrefabInstance:
 --- !u!224 &1657195617 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 2825886296359675623, guid: a93feae134441ab4a9e908bbdbbb4ce4,
-    type: 3}
-  m_PrefabInstance: {fileID: 1657195616}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &1657195618 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 2825886296359675622, guid: a93feae134441ab4a9e908bbdbbb4ce4,
     type: 3}
   m_PrefabInstance: {fileID: 1657195616}
   m_PrefabAsset: {fileID: 0}

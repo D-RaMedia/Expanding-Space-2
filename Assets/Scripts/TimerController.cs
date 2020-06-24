@@ -22,7 +22,7 @@ public class TimerController : MonoBehaviour
         float t = startTime - Time.time;
 
         string minutes = ((int)t / 60).ToString("00");
-        string seconds = (t % 59.5299).ToString("00");
+        string seconds = (t % 59.52999).ToString("00");
 
         timerText.text = "Time: " + minutes + "." + seconds;
 
