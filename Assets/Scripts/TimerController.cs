@@ -10,22 +10,26 @@ public class TimerController : MonoBehaviour
     public GameObject Lose;
     public float startTime;
     public float endTime;
+    public float losetime;
 
     void Start()
     {
-        endTime = startTime - Time.time;
+
     }
 
     void Update()
     {
-        float t = startTime - Time.time;
+        //float t = startTime - Time.time;
+        float t = startTime -= Time.deltaTime;
+
+        losetime -= Time.deltaTime;
 
         string minutes = ((int)t / 60).ToString("00");
-        string seconds = (t % 59.5299).ToString("00");
+        string seconds = (t % 59.52999).ToString("00");
 
         timerText.text = "Time: " + minutes + "." + seconds;
 
-        if (endTime == 0)
+        if (losetime <= 0)
         {
             bool isActive = Lose.activeSelf;
 
