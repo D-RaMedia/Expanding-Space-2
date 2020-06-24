@@ -15494,10 +15494,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0eb37444197c5df42a13e8684c4d0749, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  testtimeleft: 120
-  stars3: {fileID: 1656377823}
+  testtimeleft: 30
+  iftimeunder1: 25
+  iftimeunder2: 20
+  stars3: {fileID: 135177898}
   stars2: {fileID: 1942793296}
-  stars1: {fileID: 135177898}
+  stars1: {fileID: 1656377823}
 --- !u!1 &1818083581
 GameObject:
   m_ObjectHideFlags: 0

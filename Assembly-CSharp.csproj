@@ -68,6 +68,7 @@
      <Compile Include="Assets\Scripts\SchadeBalk.cs" />
      <Compile Include="Assets\Scripts\SchadeRuimte.cs" />
      <Compile Include="Assets\Scripts\Sound.cs" />
+     <Compile Include="Assets\Scripts\StarScript.cs" />
      <Compile Include="Assets\Scripts\TimerController.cs" />
      <Compile Include="Assets\Scripts\TLevel1.cs" />
      <Compile Include="Assets\Scripts\Verdwijn.cs" />
