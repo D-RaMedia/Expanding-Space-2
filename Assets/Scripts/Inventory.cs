@@ -7,7 +7,7 @@ public class Inventory : MonoBehaviour
     public string inv = "Empty";
     [SerializeField] private GameObject Water;
     [SerializeField] private GameObject Energy;
-    [SerializeField] private GameObject Oxygen;
+    [SerializeField] private GameObject Food;
     // Start is called before the first frame update
     void Start()
     {
@@ -21,12 +21,12 @@ public class Inventory : MonoBehaviour
             Water.active = true;
         } else if (inv == "Energy"){
             Energy.active = true;
-        } else if (inv == "Oxygen"){
-            Oxygen.active = true;
+        } else if (inv == "Food"){
+            Food.active = true;
         } else {
             Water.active = false;
             Energy.active = false;
-            Oxygen.active = false;
+            Food.active = false;
         }
     }
 }

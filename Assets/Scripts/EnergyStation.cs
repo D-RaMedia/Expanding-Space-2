@@ -75,7 +75,6 @@ public class EnergyStation : MonoBehaviour
                 isReadytext.active = true;
                 Elec.Stop();
             }
-            
         } else {
             ready.active = false;
         }

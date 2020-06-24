@@ -13,7 +13,6 @@ public class TimerController : MonoBehaviour
 
     void Start()
     {
-        startTime = 595f;
         endTime = startTime - Time.time;
     }
 
