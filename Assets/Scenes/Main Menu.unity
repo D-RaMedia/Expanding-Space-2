@@ -700,8 +700,8 @@ PrefabInstance:
     - target: {fileID: 110549231375979745, guid: 403598cff4327c144b1679d2e25cde5f,
         type: 3}
       propertyPath: m_Text
-      value: Your money baris in the top right. This is all the money you gather from
-        playing the levels.
+      value: Your money bar is in the top right. This is all the money you gather
+        from playing the levels.
       objectReference: {fileID: 0}
     - target: {fileID: 110549231604749552, guid: 403598cff4327c144b1679d2e25cde5f,
         type: 3}

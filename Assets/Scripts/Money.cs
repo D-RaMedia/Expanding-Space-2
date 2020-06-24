@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class Money : MonoBehaviour
 {
@@ -19,10 +20,11 @@ public class Money : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        
         moneyText.text = "@   " + (int)moneyAmount;
         moneyAmount += moneyIncreasedPerSecond * Time.deltaTime;
 
-        if (moneyAmount == 1000)
+        if (moneyAmount >= 1000)
         {
             bool isActive = Panel.activeSelf;
 

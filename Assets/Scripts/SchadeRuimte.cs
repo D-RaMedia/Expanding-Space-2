@@ -12,7 +12,6 @@ public class SchadeRuimte : MonoBehaviour
     public GameObject blockade3;
     public bool inArea;
     public bool ReadyToFix = false;
-
     public bool isRepairing = false;
 
     public AudioSource Repair;
@@ -32,6 +31,9 @@ public class SchadeRuimte : MonoBehaviour
     void Start()
     {
         Schadebalk = this.gameObject.transform.GetChild(0).gameObject;
+        blockade1.SetActive(true);
+        blockade2.SetActive(true);
+        blockade3.SetActive(true);
     }
 
     // Update is called once per frame
@@ -39,7 +41,15 @@ public class SchadeRuimte : MonoBehaviour
     {   
         if(inArea && ReadyToFix){
             if(Input.GetKeyDown(KeyCode.R)){
-                isRepaired = true;
+                
+                activator.Countdown = Random.Range(10.0f,30.0f);
+                activator.ActivateGenerators();
+                activator.isActive = false;
+                inArea = false;
+                ReadyToFix = false;
+                isRepairing = false;
+                this.gameObject.SetActive(false);
+                
             }
         }
         if(inArea && !isRepairing){
@@ -50,25 +60,18 @@ public class SchadeRuimte : MonoBehaviour
             }
         } 
 
-        if(isRepaired == true)
-        {
-            blockade1.SetActive(false);
-            blockade2.SetActive(false);
-            blockade3.SetActive(false);
-        }
         
-        if(isRepaired){
-            activator.Countdown = Random.Range(10.0f,30.0f);
-            activator.ActivateGenerators();
-            isRepaired = false;
-            Schadebalk.SetActive(false);
-            activator.isActive = false;
-            this.gameObject.SetActive(false);
-        }
+        
+        // if(isRepaired){
+            
+        //     activator.Countdown = Random.Range(10.0f,30.0f);
+        //     activator.ActivateGenerators();
+        //     isRepaired = false;
+        //     Schadebalk.SetActive(false);
+        //     activator.isActive = false;
+        //     this.gameObject.SetActive(false);
+        // }
 
-        if(ReadyToFix == true)
-        {
-            Repair.Stop();
-        }
+    
     }
 }
