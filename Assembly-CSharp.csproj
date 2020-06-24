@@ -45,9 +45,10 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\CamaraFollower.cs" />
      <Compile Include="Assets\Pics\Geupdaten UI!!\tekstbalken\arrowonscript.cs" />
      <Compile Include="Assets\Pics\Geupdaten UI!!\tekstbalken\textscript.cs" />
+     <Compile Include="Assets\Scripts\CamaraFollower.cs" />
+     <Compile Include="Assets\Scripts\coin.cs" />
      <Compile Include="Assets\Scripts\DropOff.cs" />
      <Compile Include="Assets\Scripts\EnergyStation.cs" />
      <Compile Include="Assets\Scripts\Inventory.cs" />
@@ -61,15 +62,17 @@
      <Compile Include="Assets\Scripts\ProcessEnergy.cs" />
      <Compile Include="Assets\Scripts\ProcessWater.cs" />
      <Compile Include="Assets\Scripts\Quit.cs" />
+     <Compile Include="Assets\Scripts\RandomQuest.cs" />
+     <Compile Include="Assets\Scripts\request.cs" />
      <Compile Include="Assets\Scripts\SchadeActivator.cs" />
      <Compile Include="Assets\Scripts\SchadeBalk.cs" />
      <Compile Include="Assets\Scripts\SchadeRuimte.cs" />
      <Compile Include="Assets\Scripts\Sound.cs" />
-     <Compile Include="Assets\Scripts\StarScript.cs" />
      <Compile Include="Assets\Scripts\TimerController.cs" />
      <Compile Include="Assets\Scripts\TLevel1.cs" />
+     <Compile Include="Assets\Scripts\Verdwijn.cs" />
+     <Compile Include="Assets\Scripts\vraagbalk.cs" />
      <Compile Include="Assets\Scripts\WaterStation.cs" />
-     <Compile Include="Assets\timertester.cs" />
  <Reference Include="Unity.Timeline.Editor">
  <HintPath>D:/Program Files/SCHOOL/Expanding-Space-2/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
  </Reference>
