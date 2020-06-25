@@ -12967,7 +12967,7 @@ MonoBehaviour:
   Panel1: {fileID: 0}
   Panel2: {fileID: 0}
   Panel3: {fileID: 0}
-  MoneyGoal: 100
+  MoneyGoal: 10
   moneyText: {fileID: 1182270019}
   moneyAmount: 0
   moneyIncreasedPerSecond: 0
@@ -16234,6 +16234,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_RootOrder
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5701362047189174101, guid: 85fbdec8ac81d8d43aaf36a64f27c79c,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -1.872
       objectReference: {fileID: 0}
     - target: {fileID: 6798850729308767704, guid: 85fbdec8ac81d8d43aaf36a64f27c79c,
         type: 3}

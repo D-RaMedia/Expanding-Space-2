@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{C5C87539-7BF3-8563-16A6-E7814020CFAB}</ProjectGuid>
+    <ProjectGuid>{09B6ECFE-FDAB-693D-CF2A-FF0F943E348F}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -102,31 +102,31 @@
     <Compile Include="Assets\Scripts\winscreens\winscreen4.cs" />
     <Compile Include="Assets\Scripts\winscreens\winscreen5.cs" />
     <Reference Include="Unity.Timeline.Editor">
-      <HintPath>C:/Users/Diego/OneDrive - Mediacollege Amsterdam/GitHub/Expanding-Space-2-master/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+      <HintPath>C:/Users/Diego/OneDrive - Mediacollege Amsterdam/GitHub/Expanding-Space-2/Expanding-Space-2/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
-      <HintPath>C:/Users/Diego/OneDrive - Mediacollege Amsterdam/GitHub/Expanding-Space-2-master/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+      <HintPath>C:/Users/Diego/OneDrive - Mediacollege Amsterdam/GitHub/Expanding-Space-2/Expanding-Space-2/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>C:/Users/Diego/OneDrive - Mediacollege Amsterdam/GitHub/Expanding-Space-2-master/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>C:/Users/Diego/OneDrive - Mediacollege Amsterdam/GitHub/Expanding-Space-2/Expanding-Space-2/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>C:/Users/Diego/OneDrive - Mediacollege Amsterdam/GitHub/Expanding-Space-2-master/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+      <HintPath>C:/Users/Diego/OneDrive - Mediacollege Amsterdam/GitHub/Expanding-Space-2/Expanding-Space-2/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-      <HintPath>C:/Users/Diego/OneDrive - Mediacollege Amsterdam/GitHub/Expanding-Space-2-master/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+      <HintPath>C:/Users/Diego/OneDrive - Mediacollege Amsterdam/GitHub/Expanding-Space-2/Expanding-Space-2/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>C:/Users/Diego/OneDrive - Mediacollege Amsterdam/GitHub/Expanding-Space-2-master/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>C:/Users/Diego/OneDrive - Mediacollege Amsterdam/GitHub/Expanding-Space-2/Expanding-Space-2/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-      <HintPath>C:/Users/Diego/OneDrive - Mediacollege Amsterdam/GitHub/Expanding-Space-2-master/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+      <HintPath>C:/Users/Diego/OneDrive - Mediacollege Amsterdam/GitHub/Expanding-Space-2/Expanding-Space-2/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>C:/Users/Diego/OneDrive - Mediacollege Amsterdam/GitHub/Expanding-Space-2-master/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>C:/Users/Diego/OneDrive - Mediacollege Amsterdam/GitHub/Expanding-Space-2/Expanding-Space-2/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-      <HintPath>C:/Users/Diego/OneDrive - Mediacollege Amsterdam/GitHub/Expanding-Space-2-master/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+      <HintPath>C:/Users/Diego/OneDrive - Mediacollege Amsterdam/GitHub/Expanding-Space-2/Expanding-Space-2/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.2.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
